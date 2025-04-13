@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Rangers</title>
+</head>
+<body>
+    <!--
+        & Style Attribute
+        ~ with this attribute added to any html element we can add styling directly in the html document
+    -->
+    <p>
+        Roses are <span style="color: red;">red</span>
+        <br>
+        Violets are <span style="color: blue;">blue</span>
+        <br>
+        Matcha is <span style="color: lightgreen;">light green</span>
+        <br>
+        Cherry Blossoms are <span style="color: rgb(255, 205, 216);">sakura pink</span>
+    </p>
+
+    <!--
+        ~ this attribute uses a special  syntax where a style is made of a property (i.e. color) and a value (red), separated by a :(colon)
+        ~ multiples styles can be applies to a single element, but must be separated by a ; semi-colon
+        ~ the color property sets the color for the text of an element
+        ~ the text-decoration adds text formatting (i.e. underline), similar to what the <b>, <i>, <u>, <s> does
+        ~ this is actually a language called CSS
+    -->
+    <p>
+        Roses are <span style="color: red; text-decoration: underline;">red</span>
+        <br>
+        Violets are <span style="color: blue; text-decoration: underline;">blue</span>
+        <br>
+        Matcha is <span style="color: lightgreen; text-decoration: underline;">light green</span>
+        <br>
+        Cherry Blossoms are <span style="color: rgb(255, 205, 216); text-decoration: underline;">sakura pink</span>
+    </p>
+
+    <!--
+        & The Style Element
+        ~ the style element can be used in <head> to style our elements in the <body>
+        ~ elements can be selected inside the <style> element using {} curly braces
+            <style>
+                whatever the element is {
+                    property: value;
+                }
+            </style>
+        ~ can use period .(class) or hashtag # (id) to select one or more specific elements thhat have a matching class or id
+            <style>
+                span {
+                    text-decoration: underline;
+                }
+
+                #red-word {
+                    color: red;
+                }
+
+                #blue-word {
+                    color: blue;
+                }
+            </style>
+    -->
+</body>
+</html>
